@@ -15,7 +15,7 @@ C:/Users/JULIEN/UnityIndoorLighting
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56435
+52759
 Successfully changed project path to: C:/Users/JULIEN/UnityIndoorLighting
 C:/Users/JULIEN/UnityIndoorLighting
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/JULIEN/UnityIndoorLighting
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 46.19 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 42.75 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.7f1 (6bd9e232123f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/Resources/UnitySubsystems
@@ -63,87 +63,87 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56176
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56608
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.012698 seconds.
+Registered in 0.010533 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 38.12 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 35.74 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.819 seconds
+- Completed reload, in  0.814 seconds
 Domain Reload Profiling:
-	ReloadAssembly (820ms)
-		BeginReloadAssembly (116ms)
+	ReloadAssembly (814ms)
+		BeginReloadAssembly (102ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (570ms)
-			LoadAssemblies (112ms)
+		EndReloadAssembly (576ms)
+			LoadAssemblies (100ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (152ms)
+			SetupTypeCache (159ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (308ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (309ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (23ms)
+				InitializePlatformSupportModulesInManaged (24ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (38ms)
+				RefreshPlugins (36ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (188ms)
-				ProcessInitializeOnLoadMethodAttributes (57ms)
+				ProcessInitializeOnLoadAttributes (189ms)
+				ProcessInitializeOnLoadMethodAttributes (60ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006258 seconds.
+Registered in 0.005138 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.109 seconds
+- Completed reload, in  2.064 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1110ms)
-		BeginReloadAssembly (153ms)
+	ReloadAssembly (2071ms)
+		BeginReloadAssembly (173ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (16ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (827ms)
-			LoadAssemblies (93ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (1717ms)
+			LoadAssemblies (135ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (229ms)
+			SetupTypeCache (716ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (56ms)
-			SetupLoadedEditorAssemblies (397ms)
+			RebuildScriptCaches (117ms)
+			SetupLoadedEditorAssemblies (623ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (17ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (68ms)
-				ProcessInitializeOnLoadAttributes (268ms)
-				ProcessInitializeOnLoadMethodAttributes (32ms)
-				AfterProcessingInitializeOnLoad (11ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (443ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (32ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
-Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1522 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 19 unused Assets / (49.9 KB). Loaded Objects now: 2027.
-Memory consumption went from 96.0 MB to 95.9 MB.
-Total: 3.901800 ms (FindLiveObjects: 0.163600 ms CreateObjectMapping: 0.376600 ms MarkObjects: 3.240600 ms  DeleteObjects: 0.119800 ms)
+Unloading 1526 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (49.9 KB). Loaded Objects now: 2033.
+Memory consumption went from 96.3 MB to 96.3 MB.
+Total: 3.195800 ms (FindLiveObjects: 0.169900 ms CreateObjectMapping: 0.097000 ms MarkObjects: 2.812000 ms  DeleteObjects: 0.115100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -158,7 +158,490 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 160648.709290 seconds.
-  path: Assets/Script/PlayerCameraController.cs
-  artifactKey: Guid(b88b2f0655685bf41bfccd5029abe5e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/PlayerCameraController.cs using Guid(b88b2f0655685bf41bfccd5029abe5e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24efb68680ae9b780622834ce6730477') in 0.048355 seconds 
+  Time since last request: 231847.559815 seconds.
+  path: Assets/Simple Crosshair Generator/Demo Scene/SimpleCrosshairGeneratorDemo.unity
+  artifactKey: Guid(b2f888d8335890a46a685601d93d0881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Crosshair Generator/Demo Scene/SimpleCrosshairGeneratorDemo.unity using Guid(b2f888d8335890a46a685601d93d0881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5acf84e085b97f1d40bddeb401d108a9') in 0.029878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.092418 seconds.
+  path: Assets/Simple Crosshair Generator/Scripts/Example
+  artifactKey: Guid(a9f04b6f0676e334fa2a3c6ae8bf8f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Crosshair Generator/Scripts/Example using Guid(a9f04b6f0676e334fa2a3c6ae8bf8f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c33f1424a4e7f68cc6002b9a2dfddb6') in 0.063906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.375439 seconds.
+  path: Assets/Simple Crosshair Generator/Scripts/Example/Utility
+  artifactKey: Guid(ccf8447f769ec2e4ab259cb92e2a325f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Crosshair Generator/Scripts/Example/Utility using Guid(ccf8447f769ec2e4ab259cb92e2a325f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f8bb514d7d7ed53f68d27fb40e11a5e') in 0.083696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.637792 seconds.
+  path: Assets/Simple Crosshair Generator/Scripts/Example/Utility/DisableOnPlay.cs
+  artifactKey: Guid(258cae6383ae0344ca9c5c66bef22af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Crosshair Generator/Scripts/Example/Utility/DisableOnPlay.cs using Guid(258cae6383ae0344ca9c5c66bef22af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '522f8f99a33274829a10e9e991c89084') in 0.118473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.020083 seconds.
+  path: Assets/Simple Crosshair Generator/Demo Scene
+  artifactKey: Guid(06d499e1b5b636048a095f9a7df8427e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Crosshair Generator/Demo Scene using Guid(06d499e1b5b636048a095f9a7df8427e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6971b1bc31cbcca00cf42048dd604eae') in 0.009194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.748377 seconds.
+  path: Assets/Simple Crosshair Generator/Documentation
+  artifactKey: Guid(dc59c463fbf227f4bb70cd61bf0c4ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Crosshair Generator/Documentation using Guid(dc59c463fbf227f4bb70cd61bf0c4ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76e91cf1e985998748cd613efbebc945') in 0.077870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.007149 seconds.
+  path: Assets/Simple Crosshair Generator/Documentation/Manual.pdf
+  artifactKey: Guid(cdac9f1cf71e74842960d95fc3109ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Crosshair Generator/Documentation/Manual.pdf using Guid(cdac9f1cf71e74842960d95fc3109ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b44f73af8aaccf087b28a171c347799d') in 0.120159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.368032 seconds.
+  path: Assets/Simple Crosshair Generator/Documentation/ScriptingAPI.pdf
+  artifactKey: Guid(420a6ce58bd602d429ebfcdde9e0e36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Crosshair Generator/Documentation/ScriptingAPI.pdf using Guid(420a6ce58bd602d429ebfcdde9e0e36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfbca96f22142e1b57352e033f9e03ac') in 0.007076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.670644 seconds.
+  path: Assets/Simple Crosshair Generator/Scripts
+  artifactKey: Guid(115c56fe55148e14d9c84043634af623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Crosshair Generator/Scripts using Guid(115c56fe55148e14d9c84043634af623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fa8aa304e88736166e42998226c1401') in 0.101798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.204071 seconds.
+  path: Assets/Simple Crosshair Generator/Scripts/SimpleCrosshair.cs
+  artifactKey: Guid(661321087b04ff64fbbc4c85833f83c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Crosshair Generator/Scripts/SimpleCrosshair.cs using Guid(661321087b04ff64fbbc4c85833f83c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c8e37f68eb670ad824a3724be52d92f') in 0.030215 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005428 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.726 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1727ms)
+		BeginReloadAssembly (200ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (62ms)
+		EndReloadAssembly (1352ms)
+			LoadAssemblies (119ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (339ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (222ms)
+			SetupLoadedEditorAssemblies (568ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (365ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (48ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1521 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (31.7 KB). Loaded Objects now: 2035.
+Memory consumption went from 96.3 MB to 96.3 MB.
+Total: 2.850100 ms (FindLiveObjects: 0.157700 ms CreateObjectMapping: 0.084500 ms MarkObjects: 2.588000 ms  DeleteObjects: 0.018700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 74.473422 seconds.
+  path: Assets/Simple Crosshair Generator/Scripts/SimpleCrosshair.cs
+  artifactKey: Guid(661321087b04ff64fbbc4c85833f83c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Crosshair Generator/Scripts/SimpleCrosshair.cs using Guid(661321087b04ff64fbbc4c85833f83c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f09291994bcd367f33521f8070c5898') in 0.004115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 38.591659 seconds.
+  path: Assets/Simple Crosshair Generator/Scripts/Editor
+  artifactKey: Guid(02865d9cafd2bb4498e5d7a04583a6c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Crosshair Generator/Scripts/Editor using Guid(02865d9cafd2bb4498e5d7a04583a6c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ba4d4e41b9d5100e89e0ec7c0be8ee6') in 0.017543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.009276 seconds.
+  path: Assets/Scenes/MainScene.unity
+  artifactKey: Guid(0412e9d08f0fba347bf9dbfbaf85d1a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene.unity using Guid(0412e9d08f0fba347bf9dbfbaf85d1a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ff7ffac637ad4fd0a132c21452701eb') in 0.101179 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004965 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.332 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1332ms)
+		BeginReloadAssembly (184ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (979ms)
+			LoadAssemblies (110ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (302ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (463ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (332ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1517 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (31.8 KB). Loaded Objects now: 2037.
+Memory consumption went from 96.2 MB to 96.2 MB.
+Total: 9.004000 ms (FindLiveObjects: 0.157100 ms CreateObjectMapping: 0.069300 ms MarkObjects: 8.759500 ms  DeleteObjects: 0.016900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 265.914869 seconds.
+  path: Assets/STS_FreeMedievalHouse/freeMedievalHouse.pdf
+  artifactKey: Guid(b2807567f25db1743be2e7fe3476cb2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/STS_FreeMedievalHouse/freeMedievalHouse.pdf using Guid(b2807567f25db1743be2e7fe3476cb2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3905d3bd5b07326fa54a9b32e8ae87c') in 0.143080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.781316 seconds.
+  path: Assets/STS_FreeMedievalHouse/Terrain
+  artifactKey: Guid(210a0faf279e15c4283e19ac1a13208a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/STS_FreeMedievalHouse/Terrain using Guid(210a0faf279e15c4283e19ac1a13208a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceef000832aa1ac32703261593187958') in 0.067168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.582297 seconds.
+  path: Assets/STS_FreeMedievalHouse/Terrain/NewLayer.terrainlayer
+  artifactKey: Guid(c134f5106421e9e4aa2df85fb1a4b799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/STS_FreeMedievalHouse/Terrain/NewLayer.terrainlayer using Guid(c134f5106421e9e4aa2df85fb1a4b799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0bbaf1582b2c0b80839bda5cc573f41') in 0.207957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/STS_FreeMedievalHouse/Terrain/Terrain.asset
+  artifactKey: Guid(886de430026eb8c439254a9968f33657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/STS_FreeMedievalHouse/Terrain/Terrain.asset using Guid(886de430026eb8c439254a9968f33657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc9e9944a511a3cf599039fbd7d3880d') in 0.223402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/STS_FreeMedievalHouse/Terrain/Terrain.terrainlayer
+  artifactKey: Guid(6866e9a7d5ff7044d9c88a6a32302e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/STS_FreeMedievalHouse/Terrain/Terrain.terrainlayer using Guid(6866e9a7d5ff7044d9c88a6a32302e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57d47905b4612b24ceeb25d14662cdde') in 0.024823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.027683 seconds.
+  path: Assets/STS_FreeMedievalHouse/Scene
+  artifactKey: Guid(d2455b9701a932d408def36674fc7d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/STS_FreeMedievalHouse/Scene using Guid(d2455b9701a932d408def36674fc7d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '372935baa6553544be16fe1db4becdbf') in 0.053748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.036285 seconds.
+  path: Assets/STS_FreeMedievalHouse/Scene/Demo1.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/STS_FreeMedievalHouse/Scene/Demo1.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0839d8361550209a69729ef383abdac9') in 0.017928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 109.791438 seconds.
+  path: Assets/Scenes/MainScene.unity
+  artifactKey: Guid(0412e9d08f0fba347bf9dbfbaf85d1a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene.unity using Guid(0412e9d08f0fba347bf9dbfbaf85d1a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '494fb5ac8c368a587b58efb196822202') in 0.062223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.629891 seconds.
+  path: Assets/STS_FreeMedievalHouse/Mesh/medievalHouse.fbx
+  artifactKey: Guid(2089aca32526dab45ba2213e474462f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/STS_FreeMedievalHouse/Mesh/medievalHouse.fbx using Guid(2089aca32526dab45ba2213e474462f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f807095fc48ad067e0034d4903100f05') in 0.984964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/STS_FreeMedievalHouse/Materials/HouseWood-normal.png
+  artifactKey: Guid(79ac7aabecec2e54c9fc2fa108d176b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/STS_FreeMedievalHouse/Materials/HouseWood-normal.png using Guid(79ac7aabecec2e54c9fc2fa108d176b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fba1f97ff2af64c5113b32daf9174c70') in 0.037286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/STS_FreeMedievalHouse/Materials/HouseChimney.mat
+  artifactKey: Guid(db8d59401baee904fadcc7e8e5204814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/STS_FreeMedievalHouse/Materials/HouseChimney.mat using Guid(db8d59401baee904fadcc7e8e5204814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '007c883036606251ec87d222fd91f760') in 1.090693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/STS_FreeMedievalHouse/Materials/HouseDoorsAndShuttersWood-normal.png
+  artifactKey: Guid(fdb0bc87743735c4b8ad3b4297192a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/STS_FreeMedievalHouse/Materials/HouseDoorsAndShuttersWood-normal.png using Guid(fdb0bc87743735c4b8ad3b4297192a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba81633cf15efd2174810d1d6a79aeb1') in 0.029384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/STS_FreeMedievalHouse/Materials/HouseRoof.mat
+  artifactKey: Guid(faeedbe89f33cfb4cbbec716b17aaeac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/STS_FreeMedievalHouse/Materials/HouseRoof.mat using Guid(faeedbe89f33cfb4cbbec716b17aaeac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0140be48db5773eff073620dfb38e322') in 0.027333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/STS_FreeMedievalHouse/Materials/shuttersAndDoors.mat
+  artifactKey: Guid(a8563531643387b459559c6779d0fc5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/STS_FreeMedievalHouse/Materials/shuttersAndDoors.mat using Guid(a8563531643387b459559c6779d0fc5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89a1fcbfbc3806ef1c2c8c2a80c0b4ab') in 0.033605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/STS_FreeMedievalHouse/Materials/HouseFloor2Wood-normal.png
+  artifactKey: Guid(f68136c0ca21e554799ddc48b87da01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/STS_FreeMedievalHouse/Materials/HouseFloor2Wood-normal.png using Guid(f68136c0ca21e554799ddc48b87da01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b351d0091c28d9325fb8be51077ca7d5') in 0.028470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013987 seconds.
+  path: Assets/STS_FreeMedievalHouse/Materials/HouseWall.mat
+  artifactKey: Guid(779bc91d30587624497aa0f90698c342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/STS_FreeMedievalHouse/Materials/HouseWall.mat using Guid(779bc91d30587624497aa0f90698c342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42724c03c4ed864b86a16ef3f255fa8d') in 0.031784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/STS_FreeMedievalHouse/Materials/HouseFloor2.mat
+  artifactKey: Guid(ad0a3eabda6a57b46bd53552dc63b1ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/STS_FreeMedievalHouse/Materials/HouseFloor2.mat using Guid(ad0a3eabda6a57b46bd53552dc63b1ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf3726a5ef615555b439889e420d7d65') in 0.018485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/STS_FreeMedievalHouse/Materials/HouseFloor1Stone-normal.png
+  artifactKey: Guid(076c020983222dc4d8bf1cd40dfba3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/STS_FreeMedievalHouse/Materials/HouseFloor1Stone-normal.png using Guid(076c020983222dc4d8bf1cd40dfba3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf5bf9c7cc8912f93748aa26c1989370') in 0.016095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/STS_FreeMedievalHouse/Materials/HouseWood.mat
+  artifactKey: Guid(8b287e208912f2940bffd6ec64bab067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/STS_FreeMedievalHouse/Materials/HouseWood.mat using Guid(8b287e208912f2940bffd6ec64bab067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '706790c59ace7ad5af9f90780d26e180') in 0.022709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/STS_FreeMedievalHouse/Materials/HouseChimneyStone-normal.png
+  artifactKey: Guid(fefad2e7b1d9560488990ee2c29ee96f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/STS_FreeMedievalHouse/Materials/HouseChimneyStone-normal.png using Guid(fefad2e7b1d9560488990ee2c29ee96f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb7e5c4f707693fa280abf2c7e0c929e') in 0.019340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/STS_FreeMedievalHouse/Materials/HouseTriangleWood-albedo.png
+  artifactKey: Guid(42548952dfeef0a4bbae239d984251be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/STS_FreeMedievalHouse/Materials/HouseTriangleWood-albedo.png using Guid(42548952dfeef0a4bbae239d984251be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dc41bad5fbff794b50c93de87e525a7') in 0.014018 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/STS_FreeMedievalHouse/Materials/HouseDoorsAndShuttersWood-albedo.png
+  artifactKey: Guid(3c48fe66dc89af64bb5c4116acb4f3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/STS_FreeMedievalHouse/Materials/HouseDoorsAndShuttersWood-albedo.png using Guid(3c48fe66dc89af64bb5c4116acb4f3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e90ca6e50e21aba99b98a4b8c8a5b83') in 0.022064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/STS_FreeMedievalHouse/Materials/HouseRoofTiles-albedo.png
+  artifactKey: Guid(bb67fc69b53999740917b87143f4ce47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/STS_FreeMedievalHouse/Materials/HouseRoofTiles-albedo.png using Guid(bb67fc69b53999740917b87143f4ce47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a384b675740b1856272ee8bf90104ae3') in 0.022142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/STS_FreeMedievalHouse/Materials/HouseInside.mat
+  artifactKey: Guid(c53d885de90172549a970b7d3a7a80bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/STS_FreeMedievalHouse/Materials/HouseInside.mat using Guid(c53d885de90172549a970b7d3a7a80bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd2dec09a9855ff593d1b7f37c8d2acd') in 0.020988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/STS_FreeMedievalHouse/Materials/HouseFloor1.mat
+  artifactKey: Guid(97972920d5237644cb67f0fd7db243c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/STS_FreeMedievalHouse/Materials/HouseFloor1.mat using Guid(97972920d5237644cb67f0fd7db243c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78cfe61008ee6e1f1609617b5db1e754') in 0.018859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/STS_FreeMedievalHouse/Materials/HouseRoofTiles-normal.png
+  artifactKey: Guid(716d82242f2e04b4b9dfdca00d291c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/STS_FreeMedievalHouse/Materials/HouseRoofTiles-normal.png using Guid(716d82242f2e04b4b9dfdca00d291c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62f7e1a6d920a5fc9155b561c0b47f35') in 0.013556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/STS_FreeMedievalHouse/Materials/HouseWall-normal.png
+  artifactKey: Guid(0ac5d8104943fd24b826aef3851e2c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/STS_FreeMedievalHouse/Materials/HouseWall-normal.png using Guid(0ac5d8104943fd24b826aef3851e2c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd9bd9f2de283a0f99f3c2055663e2b2') in 0.025626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/STS_FreeMedievalHouse/Materials/HouseWallInside-normal.png
+  artifactKey: Guid(58c01f65c18033749b58134b862d8999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/STS_FreeMedievalHouse/Materials/HouseWallInside-normal.png using Guid(58c01f65c18033749b58134b862d8999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee66ba615d4e19f35a47ac3ff2b29256') in 0.022235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/STS_FreeMedievalHouse/Materials/HouseFloor1Stone-albedo.png
+  artifactKey: Guid(cbfe62166c7d673419c44691b6f36b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/STS_FreeMedievalHouse/Materials/HouseFloor1Stone-albedo.png using Guid(cbfe62166c7d673419c44691b6f36b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddada68c5c5aa84c9d678c2891d91d3e') in 0.015808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/STS_FreeMedievalHouse/Materials/HouseWood-albedo.png
+  artifactKey: Guid(323c633d65af5d6468f1ce350538323e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/STS_FreeMedievalHouse/Materials/HouseWood-albedo.png using Guid(323c633d65af5d6468f1ce350538323e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '339407e5ed6574bd76fe42829e1fbad7') in 0.021035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/STS_FreeMedievalHouse/Materials/HouseWoodTriangles.mat
+  artifactKey: Guid(54bfff830e816f44aa3eb4a8dc7a9f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/STS_FreeMedievalHouse/Materials/HouseWoodTriangles.mat using Guid(54bfff830e816f44aa3eb4a8dc7a9f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7e6ea230679a672fcbda8e107eee137') in 0.032653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/STS_FreeMedievalHouse/Materials/HouseChimneyStone-albedo.png
+  artifactKey: Guid(28dcf303559a291428cef0f4493ae592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/STS_FreeMedievalHouse/Materials/HouseChimneyStone-albedo.png using Guid(28dcf303559a291428cef0f4493ae592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f549456282731c2de3fc7348dea51ce1') in 0.020104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/STS_FreeMedievalHouse/Materials/HouseWall-albedo.png
+  artifactKey: Guid(32d1d1e38d920c04d9dd15d56b9857ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/STS_FreeMedievalHouse/Materials/HouseWall-albedo.png using Guid(32d1d1e38d920c04d9dd15d56b9857ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d7370b3cf48be13b7e781546ae74663') in 0.023605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/STS_FreeMedievalHouse/Materials/HouseFloor2Wood-albedo.png
+  artifactKey: Guid(3315df9e1e359d74484fb25d4c188892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/STS_FreeMedievalHouse/Materials/HouseFloor2Wood-albedo.png using Guid(3315df9e1e359d74484fb25d4c188892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdb6d3987acbe1e07071a0616b105e18') in 0.014791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.515697 seconds.
+  path: Assets/STS_FreeMedievalHouse/Prefab/medievalHouse.prefab
+  artifactKey: Guid(1c1e009e291193a45a85909da414c085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/STS_FreeMedievalHouse/Prefab/medievalHouse.prefab using Guid(1c1e009e291193a45a85909da414c085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2a6ef78b70f2f26e1e798987f20b453') in 0.238468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 45.403040 seconds.
+  path: Assets/STS_FreeMedievalHouse/Prefab/medievalHouse.prefab
+  artifactKey: Guid(1c1e009e291193a45a85909da414c085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/STS_FreeMedievalHouse/Prefab/medievalHouse.prefab using Guid(1c1e009e291193a45a85909da414c085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4921153cf27e595ceccbce955b9f1ab9') in 0.174431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.001698 seconds.
+  path: Assets/STS_FreeMedievalHouse/Prefab/medievalHouse.prefab
+  artifactKey: Guid(1c1e009e291193a45a85909da414c085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/STS_FreeMedievalHouse/Prefab/medievalHouse.prefab using Guid(1c1e009e291193a45a85909da414c085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48519f911c07c3bdfda45f8c8901c64f') in 0.050641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.065053 seconds.
+  path: Assets/STS_FreeMedievalHouse/Prefab/medievalHouse.prefab
+  artifactKey: Guid(1c1e009e291193a45a85909da414c085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/STS_FreeMedievalHouse/Prefab/medievalHouse.prefab using Guid(1c1e009e291193a45a85909da414c085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c67f2aa01f6af49b624da9917e27843') in 0.083730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.917600 seconds.
+  path: Assets/STS_FreeMedievalHouse/Prefab/medievalHouse.prefab
+  artifactKey: Guid(1c1e009e291193a45a85909da414c085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/STS_FreeMedievalHouse/Prefab/medievalHouse.prefab using Guid(1c1e009e291193a45a85909da414c085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f42f4545b69ab1490f4a7b887a38542a') in 0.140724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.550340 seconds.
+  path: Assets/STS_FreeMedievalHouse/Prefab/medievalHouse.prefab
+  artifactKey: Guid(1c1e009e291193a45a85909da414c085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/STS_FreeMedievalHouse/Prefab/medievalHouse.prefab using Guid(1c1e009e291193a45a85909da414c085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9311c5757ca91ef3fd78c29792260a8c') in 0.064683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.495344 seconds.
+  path: Assets/STS_FreeMedievalHouse/Prefab/medievalHouse.prefab
+  artifactKey: Guid(1c1e009e291193a45a85909da414c085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/STS_FreeMedievalHouse/Prefab/medievalHouse.prefab using Guid(1c1e009e291193a45a85909da414c085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfb63a6bc8639f0863e0a380c007c047') in 0.115070 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012666 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.360 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1361ms)
+		BeginReloadAssembly (172ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (1022ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (274ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (490ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (135ms)
+				ProcessInitializeOnLoadAttributes (288ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1534 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (31.8 KB). Loaded Objects now: 2342.
+Memory consumption went from 128.9 MB to 128.8 MB.
+Total: 3.173700 ms (FindLiveObjects: 0.179500 ms CreateObjectMapping: 0.074900 ms MarkObjects: 2.901300 ms  DeleteObjects: 0.016900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
