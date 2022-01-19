@@ -2,39 +2,72 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class PickableObject : MonoBehaviour
 {
     public float pickUpRange = 5;
     public Transform holdParent;
     private GameObject heldObj;
+    TextMeshProUGUI UILight;
+    TextMeshProUGUI UIPickup;
 
+    private void Start()
+    {
+        UILight = GameObject.Find("GUI/LightUpInfo").GetComponent<TextMeshProUGUI>();
+        UIPickup = GameObject.Find("GUI/PickUpInfo").GetComponent<TextMeshProUGUI>();
+    }
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E))
+        
+        RaycastHit hit;
+        if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, pickUpRange))
         {
-            RaycastHit hit;
-            if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, pickUpRange))
+            if (hit.transform.gameObject.tag == "SwitchableLight")
             {
-                if(hit.transform.gameObject.tag == "SwitchableLight")
-                {
+
+                UILight.enabled = true;
+                if (Input.GetKeyDown(KeyCode.E))
+                { 
                     SwitchLight(hit.transform.gameObject);
-                }
-            }
-        }
-            if (Input.GetKeyDown(KeyCode.F))
-        {
-            if (heldObj == null)
-            {
-                RaycastHit hit;
-                if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, pickUpRange))
-                {
-                    PickUpObject(hit.transform.gameObject);
                 }
             }
             else
             {
-                DropObject();
+                UILight.enabled = false;
+            }
+
+            if (Input.GetKeyDown(KeyCode.F))
+            {
+                if (heldObj == null)
+                {
+                    PickUpObject(hit.transform.gameObject);
+                }
+                else
+                {
+                    DropObject();
+                }
+            }
+            if (hit.transform.gameObject.GetComponent<Rigidbody>())
+            {
+                UIPickup.enabled = true;
+            }
+            else
+            {
+                UIPickup.enabled = false;
+            }
+        }
+        else
+        {
+            UILight.enabled = false;
+            UIPickup.enabled = false;
+
+            if (Input.GetKeyDown(KeyCode.F))
+            {
+                if (heldObj != null)
+                {
+                    DropObject();
+                }
             }
         }
     }
