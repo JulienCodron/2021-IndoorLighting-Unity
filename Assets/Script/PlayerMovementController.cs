@@ -8,22 +8,37 @@ public class PlayerMovementController : MonoBehaviour
     [SerializeField] private float jumpForce;
     [SerializeField] private float jumpRaycastDistance;
 
-
+    private Animator animComp;
     private Rigidbody rb;
+    private bool isGrounded;
+
 
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
+        animComp = GetComponent<Animator>();
     }
 
     private void Update()
     {
-        Jump();
-    }
-
-    private void FixedUpdate()
-    {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            
+        }
+        else if (!Input.GetKey(KeyCode.Z) && !Input.GetKey(KeyCode.Q) && !Input.GetKey(KeyCode.D))
+        {
+            animComp.SetInteger("MCState", 0);
+        }
+        else if(Input.GetKey(KeyCode.Z) || Input.GetKey(KeyCode.Q) || Input.GetKey(KeyCode.D))
+        {
+            animComp.SetInteger("MCState", 1);
+        }
+        
         Move();
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            Jump();
+        }
     }
 
     private void Move()
@@ -37,17 +52,20 @@ public class PlayerMovementController : MonoBehaviour
 
     private void Jump()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (isGrounded)
         {
-            if (IsGrounded())
-            {
-                rb.AddForce(0, jumpForce, 0, ForceMode.Impulse);
-            }
-        }  
+            animComp.SetInteger("MCState", 2);
+            rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+            isGrounded = false;
+        }
     }
 
-    private bool IsGrounded()
+    void OnCollisionStay()
     {
-        return Physics.Raycast(transform.position, Vector3.down, jumpRaycastDistance);
+        isGrounded = true;
+    }
+    void OnCollisionExit()
+    {
+        isGrounded = false;
     }
 }
